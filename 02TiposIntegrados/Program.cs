@@ -28,4 +28,24 @@ Console.WriteLine(c);
 Console.WriteLine("Valores tipo Var");
 Console.WriteLine("El valor de s es {0} de tipo {1}", s, s.GetType());
 
+Console.WriteLine('b');
+Console.WriteLine(133);
+Console.WriteLine(0.25F);
+Console.WriteLine(2.625);
+Console.WriteLine(12.3981m);
+Console.WriteLine(true);
+Console.WriteLine(false);
+
+Console.WriteLine("123");
+Console.WriteLine(123);
+Console.WriteLine("true");
+Console.WriteLine(true);
+
+string cadena = TipoString.cadena("hola mundo");
+string cadena2 = cadena;
+cadena = "Hola programadores";
+Console.WriteLine(cadena);
+Console.WriteLine(cadena2);
+
 Console.ReadKey();
+
